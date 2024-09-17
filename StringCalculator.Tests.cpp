@@ -43,4 +43,13 @@ TEST(StringCalculatorTestSuite,inputstring_negativenumber_invalidargument){
 string input = "1,-2,-5,3";
 ASSERT_THROW(Add(input),invalid_argument);
 }
+TEST(StringCalculatorTestSuite,add_three_comma_delimited_numbers_sumisexpected){
+//Arrange
+string input= "1,3,4";
+int ExpectedValue = 8;
+//Act
+int actualValue = Add(input);
+//Assert
+ASSERT_EQ(actualValue, ExpectedValue);
+}
 
