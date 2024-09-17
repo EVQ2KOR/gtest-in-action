@@ -38,3 +38,10 @@ int actualValue = Add(input);
 //Assert
 ASSERT_EQ(actualValue, ExpectedValue);
 }
+TEST(StringCalculatorTestSuite,inputstring_negativenumber_invalidargument){
+//Arrange
+string input = "1,-2,-5,3";
+int ExpectedValue = 0;
+ASSERT_THROW(Add(input),invalid_argument)
+}
+
