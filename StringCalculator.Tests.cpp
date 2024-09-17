@@ -31,7 +31,7 @@ TEST(StringCalculatorTestSuite,add_numberOne_OneisExpected){
 }
 TEST(StringCalculatorTestSuite,add_two_comma_delimited_numbers_sumisexpected){
 //Arrange
-string input= "1,2";
+string input= "1,3";
 int ExpectedValue = 3;
 //Act
 int actualValue = Add(input);
