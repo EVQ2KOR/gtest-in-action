@@ -13,7 +13,7 @@ TEST(StringCalculatorTestSuite,add_emptyInputString_ZeroIsExpected){
 }
 TEST(StringCalculatorTestSuite,add_numberZero_ZeroisExpected){
 //Arrange
- string input= 0;
+ string input= "0";
  int ExpectedValue = 0;
 //Act
  int actualValue = Add(input);
