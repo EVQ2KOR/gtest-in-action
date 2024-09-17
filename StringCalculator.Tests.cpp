@@ -1,13 +1,18 @@
 #include "StringCalculator.h"
 #include <gtest/gtest.h>
+class StringCalculatorFixture:public testing:Test{
+protected:
+      string input;
+      int expectedValue;
+      int actualValue;
+};
 
-//Macro by google
-TEST(StringCalculatorTestSuite,add_emptyInputString_ZeroIsExpected){
+TEST_F(StringCalculatorFixture,add_emptyInputString_ZeroisExpected){
 //Arrange
-  string input=" ";
-  int ExpectedValue = 0;
+  input=" ";
+  ExpectedValue = 0;
 //Act
-  int actualValue=Add(input);
+  actualValue=Add(input);
 //Assert
   ASSERT_EQ(actualValue, ExpectedValue);
 }
