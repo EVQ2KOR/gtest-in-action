@@ -1,6 +1,6 @@
 #include "StringCalculator.h"
 #include <gtest/gtest.h>
- 
+
 //Macro by google
 TEST(StringCalculatorTestSuite,add_emptyInputString_ZeroIsExpected){
 //Arrange
