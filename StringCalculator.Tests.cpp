@@ -5,7 +5,7 @@
 TEST(StringCalculatorTestSuite,add_emptyInputString_ZeroIsExpected){
 //Arrange
   string input=" ";
-  int expectedValue = 0;
+  int ExpectedValue = 0;
 //Act
   int actualValue=Add(input);
 //Assert
