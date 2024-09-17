@@ -42,6 +42,6 @@ TEST(StringCalculatorTestSuite,inputstring_negativenumber_invalidargument){
 //Arrange
 string input = "1,-2,-5,3";
 int ExpectedValue = 0;
-ASSERT_THROW(Add(input),invalid_argument)
+ASSERT_THROW(Add(input),invalid_argument);
 }
 
