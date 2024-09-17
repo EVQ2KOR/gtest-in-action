@@ -1,4 +1,9 @@
 #include<string>
-using namespace std
+#include <vector>
+#include <numeric>
+#include <regex>
  
-int Add(const string &input)
+using namespace std;
+ 
+//int Add(const char * input);
+int Add(const string &input);
