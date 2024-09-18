@@ -3,7 +3,6 @@
 class GetNegatives {
 private:
 	string negatives;
-
 public:
 	void operator()(int i) {
 		if (i < 0)
