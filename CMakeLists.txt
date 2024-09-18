@@ -30,5 +30,3 @@ target_link_libraries(
 include(GoogleTest)
 gtest_discover_tests(cleancode)
 
-include(GoogleTest)
-gtest_discover_tests(cleancode)
